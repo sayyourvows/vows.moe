@@ -1,4 +1,4 @@
-## PLEASE RESPECT MY LICENSE
+## PLEASE RESPECT MY [LICENSE](https://github.com/sayyourvows/vows.moe/blob/main/LICENSE)
 | code inspo = OK!
 
 | theme inspo = I'D RATHER NOT!
