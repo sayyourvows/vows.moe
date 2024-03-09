@@ -1,0 +1,118 @@
+@font-face {
+    font-family: basiic;
+    src: url('../font/basiic.ttf') format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Glamour Girl;
+    src: url('../font/GLAMOURGIRL.ttf') format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: virale;
+    src: url('../font/virale.ttf') format(truetype);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: heart font;
+    src: url('../font/heartfont.ttf') format(truetype);
+    font-display: swap;
+}
+
+    ::-webkit-scrollbar {
+        background: linear-gradient(transparent, #efefef, transparent);
+    }
+
+    ::selection {
+        background-color: #efefef;
+    }
+
+    html {
+        height: 100vh;
+        width: 100vw;
+        cursor: ;
+        scrollbar-width: thin;
+        scrollbar-color: #efefef transparent;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 98%;
+        background: #f1f1f1;
+        color: #000;
+        font-family: 'virale', cursive;
+    }
+
+    footer {
+        display: flex;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        width: 99%;
+        padding-top: 0.5em;
+        color: #cacaca;
+        text-align: left;
+        z-index: 1;
+    }
+    
+    h1 {
+        margin-top: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        display: inline-block;
+        background: linear-gradient(#cacaca, #e0e0e0);
+        background-size: 100% 100%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        filter: drop-shadow(0px 0px 1px) drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px rgb(228, 228, 228)) drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+        color: transparent;
+        font-family: 'Glamour Girl';
+    }
+
+    h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection {
+        color: #d4d4d4;
+    }
+
+    p {
+        letter-spacing: 2px;
+        font-family: 'basiic';
+    }
+
+    a {
+        color: #cacaca;
+        transition:  color 0.3s ease, font-style 0.16s ease,  letter-spacing 0.3s ease;
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: #efefef;
+        font-style: oblique;
+        letter-spacing: 0.59em;
+        transform: translateZ(0);
+    }
+    
+    ul {
+        font-family: 'basiic';
+    }
+
+    .boring {
+        color: #a4a4a4;
+        text-decoration: none;
+    }
+
+    .boring:hover {
+        color: #cacaca;
+        letter-spacing: 0.2em;
+    }
+
+    .hf {
+        font-family: 'heart font';
+        vertical-align: bottom;
+    }
